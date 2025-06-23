@@ -34,7 +34,11 @@
         <h3 class="centrar-texto">Sobre Nosotros</h3>
         <div class="sobre-nosotros">
             <div class="sobre-nosotros__imagen">
-                <img src="img/nosotros.jpg" alt="imagen nosotros">
+                <picture>
+                    <source srcset="img/nosotros.webp" type="image/webp">
+                    <source srcset="img/nosotros.jpg" type="image/jpeg">
+                    <img loading="lazy" src="img/nosotros.jpg" alt="imagen nosotros">
+                </picture>
             </div>
 
             <div class="sobre-nosotros__texto">
